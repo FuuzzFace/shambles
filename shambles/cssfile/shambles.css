@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.mainlanding{
+    display: flex;
+    flex-direction: row;
+}
+.navigation{
+    width: 130px;
+    height: 632px;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    text-align: center;
+    margin-top: 35px; 
+}
+.navigation-items{
+    list-style-type: none;
+    margin-top: 70px;
+}
+.navigation-items li {
+    height: 100px;
+    margin: 20px 0; 
+}
+.navigation-items li a{
+    color: #2f2f2f;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    letter-spacing: 1px;
+    margin-left: 55px;
+}
+/* Adding hover effects to the links at left side  */
+
+.navigation-items li a:hover{
+    color: #f8554d;
+    transition: all .6s ease-in;
+}
+
+/* Navigation area over */
+.main-land{
+    height: 630px;
+    background-image: url("../photoshopfile/image-edit4.jpg");
+    width: 100%;
+    margin-left: 120px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.main-land-abs a{
+    text-decoration: none;
+}
+.main-land-abs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.main-land-abs h2{
+    font-weight: bold;
+    margin: 60px 100px; 
+    font-size: 30px;
+    color: #dddddd;
+    text-shadow: 1px 1px 1px #463632;
+}
+.main-land-abs span{
+    color:#2f2f2f;
+}
+.main-land-abs h1{
+    color: #2f2f2f;
+    font-size: 54px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #463632;
+    margin: 165px 200px 30px;
+}
+.main-land-abs p{
+    color: #2f2f2f;
+    text-align: right;
+    width: 40%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.main-land-abs p span{
+    color: #dddddd;
+}
+
+.main-land-abs .btnbox{
+    width: 39%;
+    text-align: right;
+    margin-top: 65px;
+}
+.btnbox a{
+    color: #2f2f2f;
+    text-decoration: none;
+    padding:10px 20px; ;
+    font-size: 14px;
+    background-color: #dddddd;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.btnbox a:nth-of-type(1){
+    background-color: transparent;
+    color: #dddddd;
+    border: 1px solid #dddddd;
+}
+
+/* Hover effects for the main buttons */
+.btnbox a:nth-of-type(1):hover{
+    background-color: #f8554d;
+    color: #dddddd;
+    transition: all .8s ease-in;
+    border: none;
+}
+
+.btnbox a:nth-of-type(2):hover{
+    background-color: #f8554d;
+    color: #dddddd;
+    transition: all .8s ease-in;
+    border: 1px solid #f8554d;
+}
+
+/* Main landing page done */
+.sect1{ 
+    width: 91%;
+    margin-left: 120px;
+    height: 630px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.sect1 .left{
+    height: 100%;
+}
+.sect1 .right{
+    height: 100%;
+}
+.sect1 h2{
+    margin: 80px 0 0 120px;
+    text-shadow: 1px 1px 1px gray;
+    color:#f8554d;
+    font-weight: 600px;
+}
+.sect1 p{
+    margin: 70px 0 0 120px;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.sect1 p:nth-of-type(2){
+    margin: 20px 120px;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+    text-indent: 20px;
+}
+.left a{
+    color: #dddddd;
+    background-color: #f8554d;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 10px 0 0 120px;
+} 
+.left p span {
+    color: #f8554d;
+}
+
+.right div{
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+
+/* section over About me*/
+
+.sect2 h2{
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 120px;
+    color: #543f63;
+    text-shadow: 1px 1px 1px gray;
+}
+.sect2 .part1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sect2 .part1 .img{
+    background-image: url(../photoshopfile/ui2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.sect2 .part2 h3{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    letter-spacing: 1px;
+    color: #373230;
+    font-size: 23px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px gray;
+}
+.sect2 .part2 p:nth-of-type(1){
+    margin-top: 50px;
+    margin-left: 120px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+.sect2 .part2 p:nth-of-type(2){
+    margin-top: 10px;
+    margin-left: 120px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+.sect2 .part3 {
+    margin-left: 120px;
+}
+.sect2 .part3 ul {
+    list-style-type: none;
+}
+.sect2 .part3 li {
+    display: inline-block;
+}
+.sect2 .part3 li a {
+    color: #2f2f2f;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Adding hover effect to part3 list */
+
+.sect2 .part3 li a:hover {
+    color: #f8554d;
+    transition: all .6s ease-in;
+}
+
+
+
+/* ui design section over */
+.sect3{
+    width: 85%;
+    margin: 30px 120px;
+}
+.sect3 .part1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sect3 .part2 {
+    margin-left: 120px;
+    text-align: center;
+    width: 35%;
+}
+.sect3 .part2 h3{
+    margin-top: 70px;
+    letter-spacing: 1px;
+    color: #373230;
+    font-size: 23px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px gray;
+}
+.sect3 .part2 p:nth-of-type(1){
+    margin-top: 50px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #2f2f2f;
+    text-align: left;
+}
+.sect3 .part2 p:nth-of-type(2){
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #2f2f2f;
+    text-align: left;
+}
+.sect3 .part1 .img2 {
+    width: 600px;
+    height: 400px;
+    background-image: url("../photoshopfile/wd1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.sect3 .part3 {
+    width: 100%;
+}
+.sect3 .part3 ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+}
+.sect3 .part3 ul li {
+    display: inline-block;
+}
+.sect3 .part3 ul li a{
+    color: #2f2f2f;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Adding hover effect to part3 list */
+
+.sect3 .part3 li a:hover {
+    color: #f8554d;
+    transition: all .6s ease-in;
+}
+
+
+/* web design section over */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 120px;
+}
+
+footer .social {
+    width: 30%;
+    background-color: #191919;
+    height: 250px;
+}
+
+.social h2 {
+    color: #aeaeae;
+    text-align: center;
+    margin: 20% 0 10%;
+}
+.social a{
+    font-size: 25px;
+    color: #aeaeae;
+    padding: 20px 15px;
+}
+.social a:nth-of-type(1){
+    margin-left: 100px;
+}
+
+.map {
+    width: 40%;
+    background-color: #191919;
+    height: 250px;
+}
+.map .img3 {
+    width: 70%;
+}
+
+.img3 {
+    margin: auto;
+    margin-top: 2.5%;
+}
+.img3 img{
+    border-radius:5px; 
+}
+
+.location {
+    width: 30%;
+    height: 250px;
+    background-color: #191919;
+    text-align: center;
+    color: #aeaeae;
+}
+.location h2 {
+    margin-top: 20%;
+}
+.location address {
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
